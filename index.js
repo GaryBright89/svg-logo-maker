@@ -27,8 +27,9 @@ inquirer
 
 ])
 
+.then((data) => {
+    fs.writeFile()
+})
 
-//DATA
 
-//APP/
 
