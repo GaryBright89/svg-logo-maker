@@ -20,7 +20,7 @@ inquirer
     choices: ['Circle', 'Triangle', 'Square']
 },
 {
-    type: 'list',
+    type: 'input',
     name: 'shapeColor',
     message: 'Shape Color: Enter a color keyword or a hexadecimal number'
 }
