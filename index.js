@@ -1,6 +1,7 @@
 //DEPENDENCIES
-const { prompt, default: inquirer } = require("inquirer");
+const inquirer = require("inquirer");
 const fs = require("fs");
+const generateLogo = require('./generate-logo');
 
 inquirer
 .prompt([{
@@ -28,8 +29,8 @@ inquirer
 ])
 
 .then((data) => {
-    fs.writeFile()
+    fs.writeFile('./logo.svg', generateLogo(data), (err) => {
+        err? console.log('error') : console.log('success');
 })
-
-
+})
 
