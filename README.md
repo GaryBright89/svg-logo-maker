@@ -28,3 +28,4 @@
 
 This project is licensed under the MIT license - see the [LICENSE.txt](https://opensource.org/licenses/MIT) file for details.
 
+project walkthrough video: https://drive.google.com/file/d/1XT6BWvO9j1rSJbbxIzioysf2Y8d5rKYA/view
